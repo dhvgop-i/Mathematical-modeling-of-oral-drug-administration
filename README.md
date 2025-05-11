@@ -8,9 +8,9 @@ This project simulates the pharmacokinetic process of drug distribution in the b
 After taking a dose \( D \), the drug enters the gastrointestinal tract, where it gradually **absorbs into the bloodstream** and eventually **eliminates** from the body. The process is modeled using a one-compartment model, accounting for absorption and elimination rates:
 
 $$
-\begin{cases}
-\frac{dA}{dt} = -k_a \cdot A \
-\frac{dC}{dt} = k_a \cdot A - k_e \cdot C
+\begin{cases}
+\frac{dA}{dt} = -k_a \cdot A \\
+\frac{dC}{dt} = k_a \cdot A - k_e \cdot C
 \end{cases}
 $$
 
